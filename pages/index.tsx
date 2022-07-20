@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+
+import Container from "../components/Container";
 import Header from "../components/Header";
 
 const Home: NextPage = () => {
@@ -12,9 +13,9 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="w-full h-screen gradient">
-        <div className="w-full max-w-7xl mx-auto py-10">
+        <Container>
           <Header />
-        </div>
+        </Container>
       </main>
     </div>
   );
