@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gradient {
+  background: linear-gradient(80.81deg, #6050ab -2.4%, #72529f 102.71%);
+}
+
+.white {
+  color: #f7f7f7;
+}
