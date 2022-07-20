@@ -1,4 +1,4 @@
-import Button from "./Button";
+import LinkButton from "./LinkButton";
 
 const Header = () => {
   return (
@@ -19,7 +19,7 @@ const Header = () => {
         </a>
       </div>
 
-      <Button title="Get in touch" url="#" />
+      <LinkButton title="Get in touch" url="#" />
     </header>
   );
 };
